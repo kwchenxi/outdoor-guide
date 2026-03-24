@@ -1,0 +1,28 @@
+{
+  "name": "粤晋山海户外向导",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:compat": "./build-compat.sh",
+    "build:offline": "./build-local.sh",
+    "preview": "vite preview",
+    "start": "./start.sh"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "@instantdb/react": "^0.22.109",
+    "lucide-react": "^0.555.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "terser": "^5.44.1",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
